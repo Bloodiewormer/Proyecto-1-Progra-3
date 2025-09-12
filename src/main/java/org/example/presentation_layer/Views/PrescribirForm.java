@@ -81,6 +81,9 @@ public class PrescribirForm extends JPanel {
         MedicamentosTable.setModel(new MedicamentoTableModel(medicamentoService.leerTodos()));
         pacientesTable.setModel(new PacienteTableModel(pacienteService.leerTodos()));
 
+        catidadSpinner.setModel(new SpinnerNumberModel(1, 1, 1000, 1));
+        DuracionSpinner.setModel(new SpinnerNumberModel(1, 1, 365, 1));
+
         filtrarPacientecomboBox.setModel(new DefaultComboBoxModel<>(new String[]{"ID", "Nombre"}));
         FiltraMedicamentoComboBox.setModel(new DefaultComboBoxModel<>(new String[]{"ID", "Nombre"}));
     }

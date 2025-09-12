@@ -3,9 +3,7 @@ package org.example.domain_layer;
 import jakarta.xml.bind.annotation.*;
 import org.example.utilities.EstadoReceta;
 
-import java.util.Date;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @XmlRootElement(name = "receta")
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -46,4 +44,18 @@ public class Receta {
     public void setEstado(EstadoReceta estado) {this.estado = estado.name();}
     public List<DetalleReceta> getDetalles() { return detalles; }
     public void setDetalles(List<DetalleReceta> detalles) { this.detalles = detalles; }
+
+    public List<Medicamento> getMedicamentos() {
+        List<Medicamento> medicamentos = new ArrayList<>();
+        for (DetalleReceta detalle : detalles) {
+            medicamentos.add(detalle.getMedicamento());
+        }
+        return medicamentos;
+    }
+
+    public Calendar getFecha() {
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(fechaConfeccion);
+        return cal;
+    }
 }

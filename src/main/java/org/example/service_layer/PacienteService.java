@@ -7,7 +7,7 @@ import org.example.utilities.ChangeType;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PacienteService implements IService<Paciente> {
+public class  PacienteService implements IService<Paciente> {
 
     private final IFileStore<Paciente> fileStore;
     private final List<IServiceObserver<Paciente>> observers = new ArrayList<>();

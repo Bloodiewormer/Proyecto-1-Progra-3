@@ -167,7 +167,7 @@ public class MenuPrincipalView extends JFrame {
                 acercadeButton.setEnabled(enable);
                 prescribirButton.setEnabled(false);
                 despachoButton.setEnabled(false);
-                historicoRecetasButton.setEnabled(false);
+                historicoRecetasButton.setEnabled(enable);
                 break;
             case FARMACEUTA:
                 medicosButton.setEnabled(false);
@@ -267,7 +267,7 @@ public class MenuPrincipalView extends JFrame {
     }
 
     public void showDashboardView() {
-        DashboardView dashboardView = new DashboardView();// add service if needed
+        DashboardView dashboardView = new DashboardView(resetaService, medicamentoService);// add service if needed
         ContentPanel.removeAll();
         ContentPanel.add(dashboardView.getMainPanel());
         ContentPanel.revalidate();

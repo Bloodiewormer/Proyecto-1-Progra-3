@@ -21,18 +21,12 @@ public class Main {
         UsuarioService usuarioService = new UsuarioService(fileStore);
         LoginController controller = new LoginController(usuarioService);
 
-
         if (usuarioService.leerTodos().isEmpty()) {
             usuarioService.agregar(new Administrador(1, "123", "Admin"));
             usuarioService.agregar(new Medico(2, "123", "Medico1", "Cardiologia"));
             usuarioService.agregar(new Farmaceuta(3, "123", "Farmaceuta1"));
         }
 
-
-        //call login view
-        SwingUtilities.invokeLater(() -> {
-            LoginView loginView = new LoginView(controller);
-        });
-
+        SwingUtilities.invokeLater(() -> {LoginView loginView = new LoginView(controller);});
     }
 }

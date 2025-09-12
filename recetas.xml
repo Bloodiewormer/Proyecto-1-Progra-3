@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <receta>
+        <id>1</id>
+        <idPaciente>10</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-09-12T14:01:28.825-06:00</fechaConfeccion>
+        <fechaRetiro>2025-09-30T14:00:38.459-06:00</fechaRetiro>
+        <estado>ENTREGADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>4</codigo>
+                    <nombre>Loratadina</nombre>
+                    <presentacion>10 mg</presentacion>
+                </medicamento>
+                <cantidad>3</cantidad>
+                <indicaciones>1 tableta cada 8 horas</indicaciones>
+                <dias>4</dias>
+            </detalle>
+        </detalles>
+    </receta>
+    <receta>
+        <id>2</id>
+        <idPaciente>2</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-09-12T14:27:02.703-06:00</fechaConfeccion>
+        <fechaRetiro>2025-09-12T14:25:47.568-06:00</fechaRetiro>
+        <estado>PROCESO</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>4</codigo>
+                    <nombre>Loratadina</nombre>
+                    <presentacion>10 mg</presentacion>
+                </medicamento>
+                <cantidad>1</cantidad>
+                <indicaciones>Tomar 1 al día</indicaciones>
+                <dias>12</dias>
+            </detalle>
+        </detalles>
+    </receta>
+    <receta>
+        <id>3</id>
+        <idPaciente>2</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-09-12T14:36:59.407-06:00</fechaConfeccion>
+        <fechaRetiro>2025-09-28T14:33:41.343-06:00</fechaRetiro>
+        <estado>ENTREGADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>4</codigo>
+                    <nombre>Loratadina</nombre>
+                    <presentacion>10 mg</presentacion>
+                </medicamento>
+                <cantidad>400</cantidad>
+                <indicaciones>21 gotas al día</indicaciones>
+                <dias>1</dias>
+            </detalle>
+        </detalles>
+    </receta>
+    <receta>
+        <id>4</id>
+        <idPaciente>5</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-08-05T09:12:10.100-06:00</fechaConfeccion>
+        <fechaRetiro>2025-08-08T11:14:40.300-06:00</fechaRetiro>
+        <estado>ENTREGADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>1</codigo>
+                    <nombre>Paracetamol</nombre>
+                    <presentacion>100 mg</presentacion>
+                </medicamento>
+                <cantidad>10</cantidad>
+                <indicaciones>Cada 6 horas</indicaciones>
+                <dias>5</dias>
+            </detalle>
+            <detalle>
+                <medicamento>
+                    <codigo>2</codigo>
+                    <nombre>Ibuprofeno</nombre>
+                    <presentacion>200 mg</presentacion>
+                </medicamento>
+                <cantidad>6</cantidad>
+                <indicaciones>Después de comidas</indicaciones>
+                <dias>3</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <receta>
+        <id>5</id>
+        <idPaciente>8</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-08-22T13:41:55.500-06:00</fechaConfeccion>
+        <fechaRetiro>2025-08-25T10:05:15.900-06:00</fechaRetiro>
+        <estado>CANCELADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>7</codigo>
+                    <nombre>Aspirina</nombre>
+                    <presentacion>81 mg</presentacion>
+                </medicamento>
+                <cantidad>30</cantidad>
+                <indicaciones>1 diaria</indicaciones>
+                <dias>30</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <!-- Julio 2025 -->
+    <receta>
+        <id>6</id>
+        <idPaciente>3</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-07-03T08:05:25.250-06:00</fechaConfeccion>
+        <fechaRetiro>2025-07-04T09:10:11.111-06:00</fechaRetiro>
+        <estado>ENTREGADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>3</codigo>
+                    <nombre>Amoxicilina</nombre>
+                    <presentacion>500 mg</presentacion>
+                </medicamento>
+                <cantidad>21</cantidad>
+                <indicaciones>1 cada 8 horas</indicaciones>
+                <dias>7</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <receta>
+        <id>7</id>
+        <idPaciente>6</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-07-15T10:33:12.600-06:00</fechaConfeccion>
+        <fechaRetiro>2025-07-16T12:20:40.420-06:00</fechaRetiro>
+        <estado>PROCESO</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>6</codigo>
+                    <nombre>Metformina</nombre>
+                    <presentacion>500 mg</presentacion>
+                </medicamento>
+                <cantidad>60</cantidad>
+                <indicaciones>2 al día</indicaciones>
+                <dias>30</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <!-- Junio 2025 -->
+    <receta>
+        <id>8</id>
+        <idPaciente>9</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-06-10T07:44:50.050-06:00</fechaConfeccion>
+        <fechaRetiro>2025-06-12T08:15:00.000-06:00</fechaRetiro>
+        <estado>ENTREGADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>5</codigo>
+                    <nombre>Omeprazol</nombre>
+                    <presentacion>20 mg</presentacion>
+                </medicamento>
+                <cantidad>14</cantidad>
+                <indicaciones>Antes del desayuno</indicaciones>
+                <dias>14</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <receta>
+        <id>9</id>
+        <idPaciente>7</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-06-21T16:22:33.333-06:00</fechaConfeccion>
+        <fechaRetiro>2025-06-23T11:05:44.444-06:00</fechaRetiro>
+        <estado>CANCELADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>2</codigo>
+                    <nombre>Ibuprofeno</nombre>
+                    <presentacion>200 mg</presentacion>
+                </medicamento>
+                <cantidad>12</cantidad>
+                <indicaciones>Solo si hay dolor</indicaciones>
+                <dias>6</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <!-- Mayo 2025 -->
+    <receta>
+        <id>10</id>
+        <idPaciente>5</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-05-02T09:10:10.100-06:00</fechaConfeccion>
+        <fechaRetiro>2025-05-03T09:00:00.000-06:00</fechaRetiro>
+        <estado>ENTREGADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>1</codigo>
+                    <nombre>Paracetamol</nombre>
+                    <presentacion>100 mg</presentacion>
+                </medicamento>
+                <cantidad>8</cantidad>
+                <indicaciones>Cada 8 horas</indicaciones>
+                <dias>3</dias>
+            </detalle>
+            <detalle>
+                <medicamento>
+                    <codigo>7</codigo>
+                    <nombre>Aspirina</nombre>
+                    <presentacion>81 mg</presentacion>
+                </medicamento>
+                <cantidad>30</cantidad>
+                <indicaciones>1 diaria</indicaciones>
+                <dias>30</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <receta>
+        <id>11</id>
+        <idPaciente>8</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-05-18T11:20:05.555-06:00</fechaConfeccion>
+        <fechaRetiro>2025-05-19T10:10:10.101-06:00</fechaRetiro>
+        <estado>PROCESO</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>3</codigo>
+                    <nombre>Amoxicilina</nombre>
+                    <presentacion>500 mg</presentacion>
+                </medicamento>
+                <cantidad>30</cantidad>
+                <indicaciones>Cada 8 horas con comida</indicaciones>
+                <dias>10</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <!-- Abril 2025 -->
+    <receta>
+        <id>12</id>
+        <idPaciente>6</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-04-07T06:45:11.111-06:00</fechaConfeccion>
+        <fechaRetiro>2025-04-09T09:30:20.222-06:00</fechaRetiro>
+        <estado>ENTREGADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>6</codigo>
+                    <nombre>Metformina</nombre>
+                    <presentacion>500 mg</presentacion>
+                </medicamento>
+                <cantidad>60</cantidad>
+                <indicaciones>1 cada 12 horas</indicaciones>
+                <dias>30</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <receta>
+        <id>13</id>
+        <idPaciente>10</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-04-21T14:14:14.140-06:00</fechaConfeccion>
+        <fechaRetiro>2025-04-22T11:11:11.111-06:00</fechaRetiro>
+        <estado>CANCELADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>5</codigo>
+                    <nombre>Omeprazol</nombre>
+                    <presentacion>20 mg</presentacion>
+                </medicamento>
+                <cantidad>28</cantidad>
+                <indicaciones>1 al día en ayunas</indicaciones>
+                <dias>28</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <!-- Marzo 2025 -->
+    <receta>
+        <id>14</id>
+        <idPaciente>9</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-03-05T13:05:05.050-06:00</fechaConfeccion>
+        <fechaRetiro>2025-03-06T10:10:10.100-06:00</fechaRetiro>
+        <estado>ENTREGADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>2</codigo>
+                    <nombre>Ibuprofeno</nombre>
+                    <presentacion>200 mg</presentacion>
+                </medicamento>
+                <cantidad>15</cantidad>
+                <indicaciones>Cada 8 horas si dolor</indicaciones>
+                <dias>5</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <receta>
+        <id>15</id>
+        <idPaciente>3</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-03-19T17:30:45.450-06:00</fechaConfeccion>
+        <fechaRetiro>2025-03-21T09:25:15.250-06:00</fechaRetiro>
+        <estado>PROCESO</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>4</codigo>
+                    <nombre>Loratadina</nombre>
+                    <presentacion>10 mg</presentacion>
+                </medicamento>
+                <cantidad>12</cantidad>
+                <indicaciones>1 diaria en la mañana</indicaciones>
+                <dias>12</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <!-- Febrero 2025 -->
+    <receta>
+        <id>16</id>
+        <idPaciente>7</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-02-11T08:18:18.180-06:00</fechaConfeccion>
+        <fechaRetiro>2025-02-13T10:22:22.220-06:00</fechaRetiro>
+        <estado>ENTREGADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>1</codigo>
+                    <nombre>Paracetamol</nombre>
+                    <presentacion>100 mg</presentacion>
+                </medicamento>
+                <cantidad>20</cantidad>
+                <indicaciones>Cada 6 horas</indicaciones>
+                <dias>5</dias>
+            </detalle>
+            <detalle>
+                <medicamento>
+                    <codigo>3</codigo>
+                    <nombre>Amoxicilina</nombre>
+                    <presentacion>500 mg</presentacion>
+                </medicamento>
+                <cantidad>21</cantidad>
+                <indicaciones>Cada 8 horas</indicaciones>
+                <dias>7</dias>
+            </detalle>
+        </detalles>
+    </receta>
+    <receta>
+        <id>17</id>
+        <idPaciente>5</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-02-24T15:40:33.333-06:00</fechaConfeccion>
+        <fechaRetiro>2025-02-25T11:11:50.500-06:00</fechaRetiro>
+        <estado>CANCELADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>8</codigo>
+                    <nombre>Claritromicina</nombre>
+                    <presentacion>250 mg</presentacion>
+                </medicamento>
+                <cantidad>14</cantidad>
+                <indicaciones>Cada 12 horas</indicaciones>
+                <dias>7</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+    <receta>
+        <id>18</id>
+        <idPaciente>6</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-01-06T07:07:07.070-06:00</fechaConfeccion>
+        <fechaRetiro>2025-01-07T09:09:09.090-06:00</fechaRetiro>
+        <estado>ENTREGADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>6</codigo>
+                    <nombre>Metformina</nombre>
+                    <presentacion>500 mg</presentacion>
+                </medicamento>
+                <cantidad>60</cantidad>
+                <indicaciones>2 al día</indicaciones>
+                <dias>30</dias>
+            </detalle>
+        </detalles>
+    </receta>
+    <receta>
+        <id>19</id>
+        <idPaciente>9</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-01-18T18:18:18.180-06:00</fechaConfeccion>
+        <fechaRetiro>2025-01-19T10:15:20.200-06:00</fechaRetiro>
+        <estado>PROCESO</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>5</codigo>
+                    <nombre>Omeprazol</nombre>
+                    <presentacion>20 mg</presentacion>
+                </medicamento>
+                <cantidad>30</cantidad>
+                <indicaciones>1 antes del desayuno</indicaciones>
+                <dias>30</dias>
+            </detalle>
+        </detalles>
+    </receta>
+    <receta>
+        <id>20</id>
+        <idPaciente>8</idPaciente>
+        <idMedico>2</idMedico>
+        <fechaConfeccion>2025-01-27T11:55:44.440-06:00</fechaConfeccion>
+        <fechaRetiro>2025-01-28T13:10:10.100-06:00</fechaRetiro>
+        <estado>CANCELADA</estado>
+        <detalles>
+            <detalle>
+                <medicamento>
+                    <codigo>2</codigo>
+                    <nombre>Ibuprofeno</nombre>
+                    <presentacion>200 mg</presentacion>
+                </medicamento>
+                <cantidad>18</cantidad>
+                <indicaciones>Cada 8 horas si fiebre</indicaciones>
+                <dias>6</dias>
+            </detalle>
+        </detalles>
+    </receta>
+
+</recetas>
